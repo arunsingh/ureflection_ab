@@ -1,17 +1,19 @@
-What happens when you initialize a repository? 
+Q.1A.What happens when you initialize a repository? 
   -  Using "git init"A new git repository is created. A hidden folder named .git is added which contains the required files for version history.
   -  using git status command we can see the current history, we can see the .git hidden file using ls -a on terminal.
 
-Why do you need to do it?
-    Without a repository, git cannot do anything. Git works only on git repositories.
+Q.1B.Why do you need to do it?
+    - Without a repository, git cannot do anything. Git works only on git repositories.
 
-How is the staging area different from the working directory and the repository? 
-    The staging area is a monitored area by git. It is not required to contain all files from the working directory. 
-    The files are not yet in the repository so you can still add/remove files from the staging area before making a commit.
+Q.2A. How is the staging area different from the working directory and the repository? 
+    -The staging area is a monitored area by git. It is not required to contain all files from the working directory. 
+    -The files are not yet in the repository so you can still add/remove files from the staging area before making a commit.
+    - It gives a pre-check function before commiting finaly into the git repository.
 
-What value do you think it offers?
-    The option to create your set of files which you want to commit without having to add all new files. This way
+Q.2B.What value do you think it offers?
+    - The option to create your set of files which you want to commit without having to add all new files. This way
     you have the option to make a split based on logical functionality
+    - This gives the freedom to choose which files need to be be pushed from local working directory to GitHub repo.
 
 How can you use the staging area to make sure you have one commit per logical change?
     The staging area gives you the possibility to decide which files should be part of the commit and which not.
@@ -36,6 +38,10 @@ Why do we represent it in the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
     Automatic merging saves a lot of time compared to doing merges manually. 
+
+Concepts Learned: 
+
+git init,git add,git status,staging area,working directory, .git (repository directory containing details and metadata about the files)
 
 Commands:
 
